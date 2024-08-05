@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+.list{
+    height: 100%;
+    width: 80%;
+    padding: 5%;
+}
+.list_container{
+    display: grid;
+    gap: 30px 5px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    
+}
+.items img{
+    margin-top: 10px;
+    height:200px;
+    width: 200px;
+    
+}
+.ordered_list{
+    background-color: rgb(9, 163, 60);
+    width: 20%;
+    padding: 5%;
+}
+.ordered_list h2{
+    color: white;
+}
+P{
+    font-size: 20px;
+    di
+}
+.list_container button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: yellow;
+    border-radius:10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list_container button:hover{
+    background-color: rgba(235, 51, 22, 0.751);
+    color: white;
+    transition: 1s;
+}
+.hi{
+    box-shadow: 10px 10px 5px lightblue;
+}
+.count{
+    width: 50px;
+    font-size: 20px;
+    background-color: rgb(113, 112, 112);
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+label{
+    font-size: 20px;
+}
+#calc{
+    margin-top: 30px;
+    padding: 2%;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+#bill{
+    color: white;
+    font-weight: bolder;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OREDR</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <div class="list">
+        <center><h2>Order menu</h2><br></center><br>
+        <div class="list_container">
+
+                <div class="hi">
+                    <div class="items">
+                        <img src="vishwa/biriyani.webp">
+                    </div>
+                        <label for="item1"><p class="item0">Biriyani ₹90</p></label>
+                        <input type="number" id="item1" name="item1" min="0" value="0" class="count item1">
+        
+                </div>
+                    <div class=hi>
+                        <div class="items"> 
+                            <img src="vishwa/dosa.avif">
+                        </div>
+                        <label for="item3">Dosa ₹15</label><br>
+                <input type="number" id="item3" name="item3" min="0" value="0" class="count item2">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/fish fry.jpg">
+                        </div>
+                        <label for="item2">Fish Fry ₹50</label><br>
+                <input type="number" id="item2" name="item2" min="0" value="0" class="count item3">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/noodles.jpg">
+                        </div>
+                        <label for="item4">Noodles ₹100</label><br>
+                <input type="number" id="item4" name="item4" min="0" value="0" class="count item4">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/parotta.webp">
+                        </div>
+                        <label for="item5">Parotta ₹15</label><br>
+                        <input type="number" id="item5" name="item5" min="0" value="0" class="count item5">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/pasta.webp">
+                        </div>
+                        <label for="item6">Pasta ₹80</label><br>
+                <input type="number" id="item6" name="item6" min="0" value="0" class="count item6">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/mealse.jpg">
+                        </div>
+                        <label for="item7">Meals ₹90</label><br>
+                <input type="number" id="item7" name="item7" min="0" value="0" class="count item7">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/Shawarma.jpg">
+                        </div>
+                        <label for="item8">Shawarma ₹80</label><br>
+                <input type="number" id="item8" name="item8" min="0" value="0" class="count item8">
+                    </div>
+                    <div class="hi">
+                        <div class="items">
+                            <img src="vishwa/pizza.jpg">
+                        </div>
+                        <label for="item9">Pizza ₹150</label><br>
+                <input type="number" id="item9" name="item9" min="0" value="0" class="count item9">
+                    </div>
+        </div>
+        
+       <center> <button type="button" onclick="calculateTotal()" id="calc">Calculate Total</button></center>
+    </div>
+
+    <div class="ordered_list" id="ordered_list">
+        <h2>Total Bill Amount</h2><br>
+        <div id="total">
+            <!-- <h2>Total: ₹<span id="totalAmount">0.00</span></h2> -->
+        </div>
+    </div>
+    <script src="order.js"></script>
+</body>
+</html>
